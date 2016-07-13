@@ -166,7 +166,7 @@ public class Youtube: NSObject {
                     completion?(videoInfo: videoInformation, error: nil)
                 }
             }else{
-                DispatchQueue.main().asynchronously() {
+                DispatchQueue.main.asynchronously() {
                     completion?(videoInfo: nil, error: NSError(domain: "com.player.youtube.backgroundqueue", code: 1001, userInfo: ["error": "Invalid YouTube URL"]))
                 }
             }
