@@ -317,7 +317,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dundaralp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = YoutubeSourceParserKit;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -333,7 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dundaralp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = YoutubeSourceParserKit;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -351,7 +351,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dundaralp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = YoutubeSourceParserKit;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoutubeSourceParserKit.app/YoutubeSourceParserKit";
 			};
 			name = Debug;
@@ -367,7 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dundaralp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = YoutubeSourceParserKit;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoutubeSourceParserKit.app/YoutubeSourceParserKit";
 			};
 			name = Release;
